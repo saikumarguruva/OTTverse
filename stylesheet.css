@@ -1,0 +1,144 @@
+body { background-image: url("https://xmple.com/wallpaper/gradient-black-grey-linear-2160x1440-c2-000000-2f4f4f-a-150-f-14.svg") ;
+      background-repeat:no-repeat;
+      background-size:cover;
+      font-family: Playfair Display;
+      
+      background-attachment:fixed;
+
+
+    
+}
+
+
+
+.intro-para {display:flex;
+             flex-direction:column;
+             font-family: Playfair Display; 
+             font-size:16px;
+             margin:30px auto;
+             color:rgba(237, 243, 253, 0.90);
+             max-width:1000px;
+             text-align:center;
+             border:1px solid ;
+             border-radius:20px;
+             border-color:rgba(159, 149, 149, 0.47);
+             padding:10px;
+             box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.8) ;
+             
+                 
+    
+       }
+
+
+
+
+
+
+/* navigation style */
+
+
+nav   {padding:0px;
+       width:100%;
+      
+       Z-index:1px;
+       background-color: #808080;
+       box-shadow:rgba(0,0,0,0.50);
+
+    
+     }
+
+nav ul{ list-style:none;
+       padding:4px;
+       margin:4px;
+       display:flex;
+       justify-content:center;
+       align-items:center;
+       gap:15px;
+       }
+
+
+nav li {color:#FFFFFF;
+
+    
+}
+
+
+nav a {padding-bottom:3px;
+        text-decoration:none;
+        font-size:17px;
+        
+        color:#FFFFFF;
+        
+        transition:color 0.3s,border-bottom 0.3s;
+       
+     }
+
+nav a:hover{ color: #606060;
+            border-bottom:2px solid #FFFFFF;
+    
+}
+
+
+/* header style */
+
+.header {display:flex;
+        flex-direction:column;
+         margin:10px auto;
+         font-family: Playfair Display; 
+         font-size:16px;
+         color:rgba(237, 243, 253, 0.90);
+         text-align:center;
+         justify-content:center;
+         align-items:center; 
+         height:50vh;
+         width:70vw;
+         background: url("https://promwad.com/sites/default/files/future-of-ott-platforms-banner.jpg");
+         background-repeat:no-repeat;
+         background-size:cover;
+         background-position: center 25%;
+         position:relative;
+         
+} 
+
+.header::before {content:"";
+            position : absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            background-color: rgba(0,0,0,0.5);
+            z-index:0;
+}
+
+.discover-more, .header-button{position:relative;
+                               z-index : 1;
+    
+}
+
+.header-button button { margin-top:20px;
+                       font-size:1.2rem;
+                      
+                       background-color:transparent;
+                       padding:5px 15px;
+                       border:1px solid rgba(85, 85, 85, 1);
+                       border-radius: 2px;
+                       
+                     
+}
+
+.header-button button:hover {
+                            border:2px solid rgba(255, 255, 255, 0.47);
+    
+}
+
+.header-button a {color: rgba(224, 219, 219, 1);
+                  text-decoration:none;
+
+    
+}
+
+.header-button button:hover a {color:rgba(60, 59, 59, 0.71);
+
+    
+} 
+
